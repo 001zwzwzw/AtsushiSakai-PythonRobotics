@@ -98,7 +98,7 @@ See this paper for more details:
 
 For running each sample code:
 
-- Python 3.9.x
+- Python 3.10.x
 
 - numpy
 

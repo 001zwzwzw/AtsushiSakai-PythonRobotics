@@ -3,12 +3,10 @@
 # PythonRobotics
 ![GitHub_Action_Linux_CI](https://github.com/AtsushiSakai/PythonRobotics/workflows/Linux_CI/badge.svg)
 ![GitHub_Action_MacOS_CI](https://github.com/AtsushiSakai/PythonRobotics/workflows/MacOS_CI/badge.svg)
-[![Build Status](https://travis-ci.org/AtsushiSakai/PythonRobotics.svg?branch=master)](https://travis-ci.org/AtsushiSakai/PythonRobotics)
-[![Documentation Status](https://readthedocs.org/projects/pythonrobotics/badge/?version=latest)](https://pythonrobotics.readthedocs.io/en/latest/?badge=latest)
 [![Build status](https://ci.appveyor.com/api/projects/status/sb279kxuv1be391g?svg=true)](https://ci.appveyor.com/project/AtsushiSakai/pythonrobotics)
+[![Documentation Status](https://readthedocs.org/projects/pythonrobotics/badge/?version=latest)](https://pythonrobotics.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/AtsushiSakai/PythonRobotics/branch/master/graph/badge.svg)](https://codecov.io/gh/AtsushiSakai/PythonRobotics)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/AtsushiSakai/PythonRobotics.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/AtsushiSakai/PythonRobotics/context:python)
-[![CodeFactor](https://www.codefactor.io/repository/github/atsushisakai/pythonrobotics/badge/master)](https://www.codefactor.io/repository/github/atsushisakai/pythonrobotics/overview/master)
 [![tokei](https://tokei.rs/b1/github/AtsushiSakai/PythonRobotics)](https://github.com/AtsushiSakai/PythonRobotics)
 
 Python codes for robotics algorithm.
@@ -98,17 +96,17 @@ See this paper for more details:
 
 For running each sample code:
 
-- Python 3.10.x
+- [Python 3.10.x](https://www.python.org/)
+ 
+- [NumPy](https://numpy.org/)
+ 
+- [SciPy](https://scipy.org/)
+ 
+- [Matplotlib](https://matplotlib.org/)
+ 
+- [pandas](https://pandas.pydata.org/)
 
-- numpy
-
-- scipy
-
-- matplotlib
-
-- pandas
-
-- [cvxpy](https://www.cvxpy.org/index.html) 
+- [cvxpy](https://www.cvxpy.org/) 
 
 For development:
   
@@ -118,7 +116,7 @@ For development:
   
 - mypy (for type check)
   
-- Sphinx (for document generation)
+- sphinx (for document generation)
   
 - pycodestyle (for code style check)
 
@@ -605,11 +603,13 @@ If this project helps your robotics project, please let me know with creating an
 
 Your robot's video, which is using PythonRobotics, is very welcome!!
 
-This is a list of other user's comment and references:[users\_comments](https://github.com/AtsushiSakai/PythonRobotics/blob/master/users_comments.md)
+This is a list of user's comment and references:[users\_comments](https://github.com/AtsushiSakai/PythonRobotics/blob/master/users_comments.md)
 
 # Contribution
 
-Any contribution is welcome!!
+Any contribution is welcome!! 
+
+Please check this document:[How to contribute](https://pythonrobotics.readthedocs.io/en/latest/how_to_contribute.html#)
 
 # Citing
 
@@ -617,7 +617,7 @@ If you use this project's code for your academic work, we encourage you to cite 
 
 If you use this project's code in industry, we'd love to hear from you as well; feel free to reach out to the developers directly.
 
-# Support
+# Supporting this project
 
 If you or your company would like to support this project, please consider:
 
@@ -629,9 +629,9 @@ If you or your company would like to support this project, please consider:
 
 If you would like to support us in some other way, please contact with creating an issue.
 
-# Sponsors
+## Sponsors
 
-## [JetBrains](https://www.jetbrains.com/)
+### [JetBrains](https://www.jetbrains.com/)
 
 They are providing a free license of their IDEs for this OSS development.   
 
